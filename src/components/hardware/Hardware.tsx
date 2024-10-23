@@ -33,14 +33,18 @@ const Hardware = () => {
       <div className="mt-4">
         <div>
           <p className="text-2xl font-bold">Data that Hardware will Receive</p>
+
+          <p className="text-red-500">
+            Needs a browser reload after adding Schedule
+          </p>
           <p>
             Can be access through{" "}
-            <code>{`/.netlify/functions/api/rooms/device/:roomId?key=<key here>`}</code>
+            <code>{`https://schedulock-test.netlify.app/.netlify/functions/api/rooms/device/:roomId?key=<key here>`}</code>
           </p>
 
           <p>
             Example:{" "}
-            <code>{`/.netlify/functions/api/rooms/device/67188ac1e779093ca8dd0f00?key=123abc`}</code>
+            <code>{`https://schedulock-test.netlify.app/.netlify/functions/api/rooms/device/67188ac1e779093ca8dd0f00?key=123abc`}</code>
           </p>
         </div>
         <div className="flex flex-wrap gap-4 mt-4 ">
