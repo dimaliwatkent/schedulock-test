@@ -7,6 +7,7 @@ const morgan = require("morgan");
 const serverless = require("serverless-http");
 const dotenv = require("dotenv");
 const cookieParser = require("cookie-parser");
+
 const scheduleRouter = require("./routes/schedule.cjs");
 const roomRouter = require("./routes/room.cjs");
 
